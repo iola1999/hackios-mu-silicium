@@ -1,0 +1,4 @@
+Merged device tree for REDMI K90 (annibale, SM8750):
+base DT from the phone vendor_boot_a ramdisk (Sun SoC variant) overlaid with
+the phone dtbo_a overlay, merged via dt-overlay fdtoverlay.
+Extracted from annibale-backup/20261022-2355 images.

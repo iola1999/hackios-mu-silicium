@@ -454,3 +454,8 @@
     SECTION UI = "uefipil.cfg"
     SECTION RAW = Binaries/annibale/RawFiles/uefipil.cfg
   }
+
+  FILE FREEFORM = 1A395579-C8E8-4C59-8EC8-7A360AE70F74 {
+    SECTION UI = "Panel_xiaomi_p11_42_0d_0a_dsc_cmd.xml"
+    SECTION RAW = annibalePkg/RawFiles/Panel_xiaomi_p11_42_0d_0a_dsc_cmd.xml
+  }
