@@ -1,5 +1,9 @@
 # Project Silicium UEFI for ARM64-Based Devices
 
+> **HackiOS REDMI K90 移植分支：`k90-port`。** 本仓库是 [Project-Silicium/Mu-Silicium](https://github.com/Project-Silicium/Mu-Silicium) 的副本：`main` 是上游 `42fe563` 的导入，`k90-port` 增加 REDMI K90（annibale，SM8750）的 `annibalePkg`，以及在 BDS 里启动 XNU loader 的 BootManager 改动，用来构建 [HackiOS K90 移植](https://github.com/iola1999/hackios-redmi-k90-annibale)驻留 loader 镜像里的 UEFI。标签 `loader-v16` 是 loader v6～v16 镜像所用 FD 的源码状态。原许可证和版权声明保留。
+>
+> 高通 DXE 驱动来自子模块 `Binaries`（[Project-Silicium/Device-Binaries](https://github.com/Project-Silicium/Device-Binaries)）。annibalePkg 沿用同为 SM8750 的 OnePlus 13R（`dodge`）的驱动，构建前需要 `ln -s dodge Binaries/annibale`。构建步骤见顶层工作区的 [annibale UEFI 构建说明](https://github.com/iola1999/hackios-redmi-k90-annibale/blob/main/docs/analysis/annibale-uefi-build.md)。
+
 <!-- ![Banner](https://github.com/Project-Silicium/Mu-Silicium/blob/main/Resources/Pictures/Banner.png) -->
 
 ## Description
