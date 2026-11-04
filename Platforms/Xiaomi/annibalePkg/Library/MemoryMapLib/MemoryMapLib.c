@@ -30,6 +30,7 @@ gMemoryDescriptor[] = {
   {"XBL_Ramdump",        0xB8000000, 0x001C0000, AddMem, MEM_RES, UNCACHEABLE, Reserv, UNCACHED_UNBUFFERED_XN},
   {"DBI_Dump",           0xB81C0000, 0x00F00000, NoHob,  MMAP_IO, INITIALIZED, Conv,   UNCACHED_UNBUFFERED_XN},
   {"DXE_Heap",           0xB90C0000, 0x1D500000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK_XN},
+  {"XNU_Payload",        0xF0000000, 0x03800000, AddMem, SYS_MEM, SYS_MEM_CAP, Reserv, WRITE_BACK_XN},
   {"Display_Reserved",   0xFC800000, 0x02B00000, AddMem, MEM_RES, SYS_MEM_CAP, Reserv, WRITE_THROUGH_XN},
 
   // Other Memory Regions
