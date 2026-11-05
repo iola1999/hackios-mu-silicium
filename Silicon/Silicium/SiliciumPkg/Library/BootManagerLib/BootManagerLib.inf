@@ -19,6 +19,7 @@
 
 [Packages]
   MdePkg/MdePkg.dec
+  ArmPkg/ArmPkg.dec
   PcBdsPkg/PcBdsPkg.dec
   MsCorePkg/MsCorePkg.dec
   MsGraphicsPkg/MsGraphicsPkg.dec
@@ -40,6 +41,7 @@
   PrintLib
   BaseLib
   BaseMemoryLib
+  ArmMonitorLib
 
 [Pcd]
   gEfiMdePkgTokenSpaceGuid.PcdPlatformBootTimeOut
